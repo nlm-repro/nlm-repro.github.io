@@ -347,18 +347,18 @@ a:focus, a:hover, a:active {
 }
 
 .btn-outline-light {
-  background-color: #20558a !important;
+  background-color: #8a2155 !important;
 }
 
 .btn-outline-light:hover,
 .btn-outline-light.focus, .btn-outline-light:focus {
-  box-shadow: 0 0 0 0.2rem #20558a1 !important;
-  color: #20558a1 !important;
+  box-shadow: 0 0 0 0.2rem #21558a !important;
+  color: #21558a !important;
   background: none !important;
 }
 
 .bg-primary {
-  background-color: #20558a !important;
+  background-color: #8a2155 !important;
 }
 
 .bg-secondary {
