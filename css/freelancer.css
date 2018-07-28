@@ -352,7 +352,7 @@ a:focus, a:hover, a:active {
 
 .btn-outline-light:hover,
 .btn-outline-light.focus, .btn-outline-light:focus {
-  box-shadow: 0 0 0 0.2rem #20558a1 !important;
+  outline: 0 0 0 0.2rem #20558a1 !important;
   color: #20558a1 !important;
   background: none !important;
 }
