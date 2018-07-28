@@ -324,17 +324,14 @@ a:active,a:focus,a:hover{
     border-color:#1a252f
 }
 
-table.dates {
-  width: 50%;
-}
 
-.dates tr:first-child {
+.dates td:first-child {
   border-right: solid #fff;
   text-align: right;
   padding-right: 1em;
 }
 
-.dates tr:last-child {
+.dates td:last-child {
   padding-left: 1em;
 }
 
