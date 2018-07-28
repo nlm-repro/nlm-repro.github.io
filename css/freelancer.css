@@ -278,12 +278,23 @@ a:active,a:focus,a:hover{
 }
 .btn-outline-light{
     background-color:#8a2155!important
+    border: none!important;
 }
-.btn-outline-light.focus,.btn-outline-light:focus,.btn-outline-light:hover{
+.btn-xl.btn-outline-light.focus,
+.btn-xl.btn-outline-light:focus,
+.btn-xl.btn-outline-light:hover{
     box-shadow:0 0 0 .2rem #21558a!important;
     color:#21558a!important;
     background:0 0!important
 }
+
+.btn-social.btn-outline-light.focus,
+.btn-social.btn-outline-light:focus,
+.btn-social.btn-outline-light:hover {
+  color: #fff!important;
+  box-shadow:0 0 0 .2rem #ffffff!important;
+}
+
 .bg-primary{
     background-color:#21558a!important
 }
