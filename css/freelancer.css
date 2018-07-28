@@ -324,6 +324,10 @@ a:active,a:focus,a:hover{
     border-color:#1a252f
 }
 
+.dates {
+  width: 50%;
+}
+
 .dates tr:first-child {
   border-right: solid #fff;
   text-align: right;
