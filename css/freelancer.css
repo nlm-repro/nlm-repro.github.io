@@ -323,3 +323,17 @@ a:active,a:focus,a:hover{
     background-color:#1a252f;
     border-color:#1a252f
 }
+
+.dates tr:first-child {
+  border-right: solid #fff;
+  text-align: right;
+  padding-right: 1em;
+}
+
+.dates tr:last-child {
+  padding-left: 1em;
+}
+
+.dates tr {
+  padding-bottom: 1em;
+}
