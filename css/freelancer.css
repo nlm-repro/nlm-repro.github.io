@@ -324,7 +324,7 @@ a:active,a:focus,a:hover{
     border-color:#1a252f
 }
 
-.dates {
+table.dates {
   width: 50%;
 }
 
