@@ -277,7 +277,7 @@ a:active,a:focus,a:hover{
     border-width:2px
 }
 .btn-outline-light{
-    background-color:#8a2155!important
+    background-color:#8a2155!important;
     border: none!important;
 }
 .btn-xl.btn-outline-light.focus,
