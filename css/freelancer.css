@@ -142,7 +142,7 @@ section h2 {
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
   #mainNav .navbar-brand {
-    font-size: 2em;
+    font-size: 1.5em;
     -webkit-transition: font-size 0.3s;
     -moz-transition: font-size 0.3s;
     transition: font-size 0.3s;
@@ -188,11 +188,11 @@ header.masthead h2 {
     padding-bottom: 6rem;
   }
   header.masthead h1 {
-    font-size: 4.75em;
+    font-size: 4em;
     line-height: 4rem;
   }
   header.masthead h2 {
-    font-size: 1.75em;
+    font-size: 1.5em;
   }
 }
 
