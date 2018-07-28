@@ -31,7 +31,7 @@ hr.star-dark:after {
   top: -.8em;
   display: inline-block;
   padding: 0 0.25em;
-  content: '\f005';
+  content: '\f121';
   font-family: FontAwesome;
   font-size: 2em;
 }
@@ -42,7 +42,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
+  background-color: #21558a;
 }
 
 hr.star-dark {
@@ -358,11 +358,11 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-color: #20558a !important;
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  background-color: #616265 !important;
 }
 
 .text-primary {
