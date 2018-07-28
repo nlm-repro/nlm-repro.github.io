@@ -196,6 +196,7 @@ header.masthead h2 {
   }
 }
 
+
 .portfolio {
   margin-bottom: -15px;
 }
@@ -343,6 +344,17 @@ a:focus, a:hover, a:active {
 
 .btn {
   border-width: 2px;
+}
+
+.btn-outline-light {
+  background-color: #20558a !important;
+}
+
+.btn-outline-light:hover,
+.btn-outline-light.focus, .btn-outline-light:focus {
+  outline: 0 0 0 0.2rem #20558a1 !important;
+  color: #20558a1 !important;
+  background: none !important;
 }
 
 .bg-primary {
