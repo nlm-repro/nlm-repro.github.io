@@ -324,6 +324,11 @@ a:active,a:focus,a:hover{
     border-color:#1a252f
 }
 
+.dates {
+    max-width: 50em;
+    margin: 0 auto;
+    width: 100%;
+}
 
 .dates td:first-child {
   border-right: solid #fff;
@@ -335,6 +340,6 @@ a:active,a:focus,a:hover{
   padding-left: 1em;
 }
 
-.dates tr {
+.dates td {
   padding-bottom: 1em;
 }
