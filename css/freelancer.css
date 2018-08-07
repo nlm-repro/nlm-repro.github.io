@@ -343,3 +343,13 @@ a:active,a:focus,a:hover{
 .dates td {
   padding-bottom: 1em;
 }
+
+.resources-img {
+    width: 30%;
+    padding-top: 50%;
+}
+
+.resources-img img {
+    width: 40%;
+    height: auto;
+}
