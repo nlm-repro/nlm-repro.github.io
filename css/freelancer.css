@@ -390,4 +390,5 @@ a:active,a:focus,a:hover{
 
 .row-for-resource div:last-child {
     width: 58%;
+    text-align: left;
 }
