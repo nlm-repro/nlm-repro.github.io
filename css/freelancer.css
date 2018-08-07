@@ -365,5 +365,13 @@ a:active,a:focus,a:hover{
 }
 
 .portfolio-modal .img-fluid {
-    max-width: 40em;
+    max-width: 20em;
+}
+
+.row-for-resource {
+    display: flex;
+}
+
+.row-for-resource div:first-child {
+    width: 40%;
 }
