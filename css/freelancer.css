@@ -393,3 +393,7 @@ a:active,a:focus,a:hover{
     width: 58%;
     text-align: left;
 }
+
+.row-for-resource h4 a {
+    color: #21558a;
+}
