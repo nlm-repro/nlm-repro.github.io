@@ -377,6 +377,7 @@ a:active,a:focus,a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 1em;
 }
 
 .row-for-resource div:first-child {
