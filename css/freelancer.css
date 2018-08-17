@@ -207,6 +207,11 @@ header.masthead h2{
 .portfolio-modal .portfolio-modal-dialog h2{
     font-size:2rem
 }
+
+.portfolio-modal .btn-primary {
+    margin-top: 2em;
+}
+
 @media (min-width:768px){
     .portfolio-modal .portfolio-modal-dialog{
         min-height:100vh;
@@ -377,7 +382,7 @@ a:active,a:focus,a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 1em;
+    margin-bottom: 1.7em;
 }
 
 .row-for-resource div:first-child {
