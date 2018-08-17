@@ -394,6 +394,6 @@ a:active,a:focus,a:hover{
     text-align: left;
 }
 
-.row-for-resource h4 a {
-    color: #21558a;
+.row-for-resource h4:hover a {
+    text-decoration: none;
 }
