@@ -225,6 +225,26 @@ header.masthead h2{
     .portfolio-modal .portfolio-modal-dialog h2{
         font-size:3rem
     }
+    
+    .row-for-resource {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1.7em;
+    }
+    
+    .row-for-resource div:first-child {
+	width: 40%;
+    }
+    
+    .row-for-resource div:last-child {
+	width: 58%;
+	text-align: left;
+    }
+    
+    .row-for-resource h4:hover a {
+	text-decoration: none;
+    }
 }
 .floating-label-form-group{
     position:relative;
@@ -383,14 +403,15 @@ a:active,a:focus,a:hover{
 }
 
 .row-for-resource {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: block;
     margin-bottom: 1.7em;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 1.7em;
 }
 
 .row-for-resource div:first-child {
-    width: 40%;
+    width: 80%;
+    margin: 0 auto 1em;
 }
 
 .row-for-resource div:first-child img {
@@ -399,7 +420,7 @@ a:active,a:focus,a:hover{
 }
 
 .row-for-resource div:last-child {
-    width: 58%;
+    width: 100%;
     text-align: left;
 }
 
