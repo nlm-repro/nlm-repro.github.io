@@ -406,3 +406,7 @@ a:active,a:focus,a:hover{
 .row-for-resource h4:hover a {
     text-decoration: none;
 }
+
+.container {
+  width: calc(100% - 30px) !important;
+}
