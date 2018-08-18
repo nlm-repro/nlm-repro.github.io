@@ -37,7 +37,7 @@ hr.star-dark:after{
     background-color:#fff
 }
 #mainNav .navbar-brand,#mainNav .navbar-nav li.nav-item a.nav-link{
-    color:#fff
+    color:#fff;
     font-size: 1rem;
 }
 
@@ -266,7 +266,7 @@ header.masthead h2{
     }
     
     .row-for-resource div:last-child {
-	width: 58%;
+	width: 56%;
 	text-align: left;
     }
     
