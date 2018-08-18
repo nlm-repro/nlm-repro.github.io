@@ -38,7 +38,35 @@ hr.star-dark:after{
 }
 #mainNav .navbar-brand,#mainNav .navbar-nav li.nav-item a.nav-link{
     color:#fff
+    font-size: 1rem;
 }
+
+.row-for-resource {
+    display: block;
+    margin-bottom: 1.7em;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 1.7em;
+}
+
+.row-for-resource div:first-child {
+    width: 80%;
+    margin: 0 auto 1em;
+}
+
+.row-for-resource div:first-child img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.row-for-resource div:last-child {
+    width: 100%;
+    text-align: left;
+}
+
+.row-for-resource h4:hover a {
+    text-decoration: none;
+}
+
 section{
     padding:6rem 0
 }
@@ -400,32 +428,6 @@ a:active,a:focus,a:hover{
 
 .portfolio-modal .img-fluid {
     max-width: 20em;
-}
-
-.row-for-resource {
-    display: block;
-    margin-bottom: 1.7em;
-    border-bottom: 1px solid #dee2e6;
-    padding-bottom: 1.7em;
-}
-
-.row-for-resource div:first-child {
-    width: 80%;
-    margin: 0 auto 1em;
-}
-
-.row-for-resource div:first-child img {
-    width: 100%;
-    border-radius: 3px;
-}
-
-.row-for-resource div:last-child {
-    width: 100%;
-    text-align: left;
-}
-
-.row-for-resource h4:hover a {
-    text-decoration: none;
 }
 
 .container {
