@@ -37,8 +37,36 @@ hr.star-dark:after{
     background-color:#fff
 }
 #mainNav .navbar-brand,#mainNav .navbar-nav li.nav-item a.nav-link{
-    color:#fff
+    color:#fff;
+    font-size: 1rem;
 }
+
+.row-for-resource {
+    display: block;
+    margin-bottom: 1.7em;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 1.7em;
+}
+
+.row-for-resource div:first-child {
+    width: 80%;
+    margin: 0 auto 1em;
+}
+
+.row-for-resource div:first-child img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.row-for-resource div:last-child {
+    width: 100%;
+    text-align: left;
+}
+
+.row-for-resource h4:hover a {
+    text-decoration: none;
+}
+
 section{
     padding:6rem 0
 }
@@ -53,8 +81,8 @@ section h2{
     }
     
     .col-lg-8 {
-        flex: 0 0 76.666667% !important;
-        max-width: 76.666667% !important;
+        flex: 0 0 95% !important;
+        max-width: 95% !important;
     }
 }
 .btn-xl{
@@ -225,6 +253,26 @@ header.masthead h2{
     .portfolio-modal .portfolio-modal-dialog h2{
         font-size:3rem
     }
+    
+    .row-for-resource {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1.7em;
+    }
+    
+    .row-for-resource div:first-child {
+	width: 40%;
+    }
+    
+    .row-for-resource div:last-child {
+	width: 56%;
+	text-align: left;
+    }
+    
+    .row-for-resource h4:hover a {
+	text-decoration: none;
+    }
 }
 .floating-label-form-group{
     position:relative;
@@ -382,27 +430,6 @@ a:active,a:focus,a:hover{
     max-width: 20em;
 }
 
-.row-for-resource {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 1.7em;
-}
-
-.row-for-resource div:first-child {
-    width: 40%;
-}
-
-.row-for-resource div:first-child img {
-    width: 100%;
-    border-radius: 3px;
-}
-
-.row-for-resource div:last-child {
-    width: 58%;
-    text-align: left;
-}
-
-.row-for-resource h4:hover a {
-    text-decoration: none;
+.container {
+  width: calc(100% - 30px) !important;
 }
